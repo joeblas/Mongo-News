@@ -1,0 +1,22 @@
+
+    <div class="row">
+       
+        {{#each result}}
+        <div class="col-sm-4">
+            
+            <div class="card">
+                <div data-id={{this._id}} class="card-body">
+                    <div class="card-title">
+                        <h4>{{this.title}}</h4>
+                        
+                   {{!-- <a href="{{this.link}}">{{this.title}}</a> --}}
+                   </div>
+                    <a href="{{this.link}}" target="_blank">Read</a>
+                    <button class="btn btn-link" id="addComment">Comment</button>
+                </div>
+            </div>
+            
+        </div>
+        {{/each}}
+        
+    </div>

@@ -1,0 +1,27 @@
+{
+  "name": "mongo-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeblas/Mongo-News.git"
+  },
+  "author": "Joe Gallegos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeblas/Mongo-News/issues"
+  },
+  "homepage": "https://github.com/joeblas/Mongo-News#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.12.4",
+    "request": "^2.83.0"
+  }
+}
