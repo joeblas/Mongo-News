@@ -13,7 +13,7 @@ $(document).ready(function(){
         .done(function(data){
             console.log(data)
 
-            $('').children('.card-body').append(`<textarea class='form-control' rows='3'></textarea>`)
+            // $().children('.card-body').append(`<textarea class='form-control' rows='3'></textarea>`)
         })
 
         // cardBody.append(`<textarea id='notebody' name='body'></textarea>`)
